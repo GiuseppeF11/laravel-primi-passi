@@ -41,11 +41,11 @@ $pages = [
 <body class="bg-primary-subtle">
     <div class="container" id="app">
         <header class="mb-5">
-            <h1 class="text-center mb-5"><!-- @{{message}}  -->Home</h1>
+            <h1 class="text-center mb-5"><!-- @{{message}}  -->About</h1>
             <ul class="row p-3 list-unstyled text-center justify-content-around bg-light rounded-3 ">
                 @foreach ($pages as $li)
                 <li class="col-auto px-3 border border-primary rounded-3 d-flex align-items-center">
-                    <a href="/about" class="text-decoration-none"> @php echo $li['name']  @endphp </a>
+                    <a href="/" class="text-decoration-none"> @php echo $li['name']  @endphp </a>
                 </li>
                 @endforeach
                 <li class="col-auto px-3">
